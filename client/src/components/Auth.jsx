@@ -26,7 +26,7 @@ const Auth = () => {
     e.preventDefault();
     const { username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "http://localhost:5000/auth";
+    const URL = "https://chat-app-8w6h.vercel.app/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
